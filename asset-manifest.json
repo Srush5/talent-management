@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/talent-management/static/css/main.888f31e8.css",
+    "main.js": "/talent-management/static/js/main.d21560ed.js",
+    "index.html": "/talent-management/index.html",
+    "main.888f31e8.css.map": "/talent-management/static/css/main.888f31e8.css.map",
+    "main.d21560ed.js.map": "/talent-management/static/js/main.d21560ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.888f31e8.css",
+    "static/js/main.d21560ed.js"
+  ]
+}
