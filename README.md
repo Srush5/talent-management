@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Talent Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Talent Management Dashboard built with React.js that streamlines the hiring process by enabling recruiters and interviewers to manage candidates, track application progress, schedule interviews and collaborate through role-based access.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Authentication
+- Recruiter and Interviewer role based login
+- Password validation with secure input rules
+- Protected routes for authenticated users
 
-### `npm start`
+### Dashboard
+- Hiring overview with real time statistics
+- Candidate flow visualization
+- Interview schedule overview
+- Candidate score distribution charts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Candidate Management
+- Add, edit, view and delete candidates
+- Search candidates by name, email or role
+- Filter candidates by status and role
+- Sort candidates by application date, score and name
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Application Status
+- Track candidates across hiring stages
+- Screening
+- Interview
+- Offer
+- Rejected
 
-### `npm test`
+### Interview Management
+- Interview schedule cards
+- Meeting links
+- Recruiter remarks
+- Interviewer feedback
+- Role based editing permissions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Settings
+- Light & Dark Theme
+- Responsive layout
+- Modern UI
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- JavaScript (ES6+)
+- React Router
+- CSS3
+- Recharts
+- React Icons
+- Local Storage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##  Responsive Design
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application is fully responsive and optimized for:
+- Desktop
+- Tablet
+- Mobile
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  User Roles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Recruiter
+- Dashboard
+- Candidate Management
+- Application Status
+- Interview Scheduling
+- Recruiter Notes
+- View Interviewer Feedback
 
-## Learn More
+### Interviewer
+- Dashboard
+- Assigned Interviews
+- Candidate Details
+- Submit Interview Feedback
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##  Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/
+│
+├── components/
+├── pages/
+├── utils/
+├── styles/
+├── assets/
+└── App.js
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## UI Highlights
 
-### Analyzing the Bundle Size
+- Modern HR SaaS dashboard
+- Dark & Light Theme
+- Interactive charts
+- Responsive layout
+- Clean and intuitive navigation
+- Professional dashboard design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> Add screenshots of:
+- Login Page
+- Dashboard
+- Candidates
+- Application Status
+- Interviews
+- Settings
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation
 
-### Deployment
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/Srush5/talent-management.git
+```
 
-### `npm run build` fails to minify
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm start
+```
+
+## Live Demo
+
+GitHub Pages
+
+```
+https://Srush5.github.io/talent-management
+```
+
+
+## License
+
+This project is created for learning, portfolio and demonstration purposes.
