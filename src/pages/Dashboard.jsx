@@ -51,32 +51,25 @@ const Dashboard = () => {
         icon: <FiUsers />,
       },
       {
-         id:1,
-   title:"Total Candidates",
-   value:totalCandidates,
-   icon:<FiUsers />,
-   className:"stat-primary"
-},
-{
-   id:2,
-   title:"Interview Stage",
-   value:interviewCount,
-   icon:<FiClock />,
-   className:"stat-info"
-},
-{
-   id:3,
-   title:"Offers Extended",
-   value:offerCount,
-   icon:<FiCheckCircle />,
-   className:"stat-success"
-},
-{
-   id:4,
-   title:"Scheduled Interviews",
-   value:scheduledCount,
-   icon:<FiCalendar />,
-   className:"stat-danger"
+        id:2,
+        title:"Interview Stage",
+        value:interviewCount,
+        icon:<FiClock />,
+        className:"stat-info"
+      },
+      {
+        id:3,
+        title:"Offers Extended",
+        value:offerCount,
+        icon:<FiCheckCircle />,
+        className:"stat-success"
+      },
+      {
+        id:4,
+        title:"Scheduled Interviews",
+        value:scheduledCount,
+        icon:<FiCalendar />,
+        className:"stat-danger"
       },
     ];
   }, [candidates]);
